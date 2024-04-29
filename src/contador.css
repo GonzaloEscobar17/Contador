@@ -1,0 +1,38 @@
+body {
+  background-color: aqua;
+}
+
+.counter-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.count {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.increment-button,
+.decrement-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.increment-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}
+
+.decrement-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}
